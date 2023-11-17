@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home page</title>
+
+  <script src="https://kit.fontawesome.com/47101d2035.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    .center {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 70%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(230, 239, 245);
+    }
+  </style>
+</head>
+
+
+<body class="center">
+
+  <h1 style="color:rgb(44, 44, 90); font-weight: 700;">
+    <i></i> SOYABEAN YIELD PREDICTION
+  </h1>
+
+
+
+  <form action="result">
+    {% csrf_token %}
+
+    <div class="form-group">
+      <input class="form-control" placeholder='Year' required type="text" name='Year'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='Loc_Id' required type="text" name= 'Loc_Id'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='W11' required type="text" name= 'W11'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='W12' required type="text" name= 'W12'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='W13' required type="text" name= 'W13'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='W14' required type="text" name= 'W14'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='W15' required type="text" name= 'W15'>
+    </div>
+ 
+    <div class="form-group">
+      <input class="form-control" placeholder='P9' required type="text" name= 'P9'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='P10' required type="text" name= 'P10'>
+    </div>
+
+    <div class="form-group">
+      <input class="form-control" placeholder='P11' required type="text" name= 'P11'>
+    </div>
+    
+    <div class="form-group">
+      <input class="form-control" placeholder='S_surface1' required type="text" name= 'S_surface1'>
+    </div>
+    <div class="form-group">
+      <input class="form-control" placeholder='S_surface2' required type="text" name= 'S_surface2'>
+    </div>
+    <div class="form-group">
+      <input class="form-control" placeholder='S_surface3' required type="text" name= 'S_surface3'>
+    </div>
+    <div class="form-group">
+      <input class="form-control" placeholder='S_surface4' required type="text" name= 'S_surface4'>
+    </div>
+
+    <input class="btn btn-primary btn-lg btn-block" type="submit" value='Predict'>
+
+  </form>
+</body>
+
+</html>
