@@ -5,7 +5,9 @@ this project is all about trying to predict the soybean yeild using the machine 
 The dataset has been included is also included  in the code files 
 
 to run the project u need to install node js 
-to run the project open the cmd in  the soybean folder and use python  "manage.py runserver" and then the server starts 
+to run the project open the cmd in  the soybean folder and use "python manage.py runserver" in the cmd in the  and then the server starts  and it opens in the web browser  this is how u should be running in the cmd  and use the cmd in the soybean folder only.
+![image](https://github.com/saikumaryangala/soybean-crop-yeild-prediction/assets/71752864/ed027b29-d73a-4c08-902b-78267d814508)
+
 
 these are the o/p screenshots of the project 
 
