@@ -2,7 +2,7 @@
 this project is all about trying to predict the soybean yeild using the machine learning algorithms
 
 
-The dataset has been included is also included  in the code files 
+The dataset has been included is also included  in the backend folder named "soyeban_data.csv" file 
 
 to run the project u need to install node js 
 to run the project open the cmd in  the soybean folder and use "python manage.py runserver" in the cmd in the  and then the server starts  and it opens in the web browser  this is how u should be running in the cmd  and use the cmd in the soybean folder only.
